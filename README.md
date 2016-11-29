@@ -59,6 +59,7 @@ The output format can be set through the `format` option in the constructor. Ava
 
 - "json": Default. Log entries are sent as JSON.
 - "simple": Only the `message` is logged as string.
+- "keyValue": Log everything as "key"="value"
 
 # License
 
