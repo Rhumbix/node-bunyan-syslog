@@ -21,6 +21,12 @@ test('format simple object with multiple properties to key=value', function(t){
 	t.end();
 });
 
+test('ignore properties set to undefined', function(t){
+	var val = keyValueFormatter({key:'value', otherKey:undefined});
+	t.equal(val, '"key"="value"');
+	t.end();
+});
+
 test('format object with an err property to key=value with escaping', function(t){
 	// Error object as it is sent by bunyan
 	var errorObject = {
