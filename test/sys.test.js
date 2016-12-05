@@ -21,7 +21,8 @@ test('create a logger', function (t) {
         STREAM = bsyslog.createBunyanStream({
                 name: 'sys_test',
                 facility: bsyslog.local0,
-                type: 'sys'
+                type: 'sys',
+                msgPrefix: 'bunyan'
         });
         t.ok(STREAM);
         console.error(STREAM.toString());
