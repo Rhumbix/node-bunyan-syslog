@@ -1,13 +1,17 @@
 {
   "name": "bunyan-syslog",
   "description": "Syslog Stream for Bunyan",
-  "version": "0.3.1",
+  "version": "0.3.2-stormshield",
   "author": "Mark Cavage",
+  "contributors": ["Baptiste Riegel", "Kevyn Bruyere"],
   "license": "MIT",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mcavage/node-bunyan-syslog.git"
+    "url": "git+ssh://git@sources2.arkoon.dev:fw-admin/node-bunyan-syslog"
+  },
+  "publishConfig":{
+	"registry":"http://services.arkoon.dev:4873"
   },
   "dependencies": {
     "assert-plus": "0.1.5",
