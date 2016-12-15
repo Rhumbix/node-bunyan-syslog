@@ -1,7 +1,7 @@
 {
   "name": "bunyan-syslog",
   "description": "Syslog Stream for Bunyan",
-  "version": "0.3.2-stormshield",
+  "version": "0.4.1",
   "author": "Mark Cavage",
   "contributors": ["Baptiste Riegel", "Kevyn Bruyere"],
   "license": "MIT",
