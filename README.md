@@ -53,6 +53,14 @@ This module maps bunyan levels to syslog levels as follows:
 +--------+--------+
 ```
 
+## Format
+
+The output format can be set through the `format` option in the constructor. Available levels are:
+
+- "json": Default. Log entries are sent as JSON.
+- "simple": Only the `message` is logged as string.
+- "keyValue": Log everything as "key"="value"
+
 # License
 
 MIT.
