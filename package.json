@@ -3,12 +3,14 @@
   "description": "Syslog Stream for Bunyan",
   "version": "0.4.1",
   "author": "Mark Cavage",
-  "contributors": ["Baptiste Riegel", "Kevyn Bruyere"],
+  "contributors": [
+    "Baptiste Riegel",
+    "Kevyn Bruyere"
+  ],
   "license": "MIT",
   "main": "./lib/index.js",
   "dependencies": {
-    "assert-plus": "0.1.5",
-    "nan": "2.4.x"
+    "assert-plus": "0.1.5"
   },
   "devDependencies": {
     "bunyan": "1.5.x",
